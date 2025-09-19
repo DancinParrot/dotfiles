@@ -36,19 +36,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # User Aliases
 alias vi='nvim'
 
-# Google Cloud Platform
-export GCP_BUCKET_NAME=knobby_maple
-export GCP_PROJECT_ID=cloudlabs-387310
-export GCP_PROJECT_ZONE=asia-southeast1-b
-export GCP_PROJECT_REGION=asia-southeast1
-export GCP_PROJECT_VPC=cloudlabs-staging
-export GCP_SIGNING_SERVICE_ACCOUNT=signer@cloudlabs-387310.iam.gserviceaccount.com
-
-
-# CloudLabs Keystore
-export PRIVATE_KEY_PASSPHRASE="Pa\$\$w0rd"
-export KEYSTORE_PASSWORD="Pa\$\$w0rd"
-
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 
